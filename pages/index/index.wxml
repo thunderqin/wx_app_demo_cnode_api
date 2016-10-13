@@ -5,6 +5,7 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <text class="user-motto">{{title}}</text>
+    <text class="user-motto">点击头像进入</text>
   </view>
 </view>

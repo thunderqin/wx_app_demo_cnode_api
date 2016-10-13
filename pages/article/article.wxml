@@ -1,17 +1,15 @@
 <view class="aticle-container">
     <scroll-view scroll-x="true" class="tag-list">
-        <view class="tag">全部</view>
-        <view class="tag" wx:for="{{tagList}}">{{item.title}}</view>
+        <view class="tag" wx:for="{{tagList}}" bindtap="getTab" id="{{item}}">{{item}}</view>
     </scroll-view>
     <scroll-view class="article-list" style="height:100%;" scroll-y="true" bindscrolltolower="lower">
         <block wx:for="{{articleList}}">
             <view class="article" >
                 <text class="article-title">{{item.title}}</text>
-                <view class="article-time">{{item.create_time}}</view>
             </view>
         </block>
     </scroll-view>
     <loading hidden="{{hidden}}">
-        加载中...
+        吃奶的加载
     </loading>
 </view>

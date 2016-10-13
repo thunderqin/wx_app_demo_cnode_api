@@ -1,36 +1,4 @@
-.aticle-container {
-    position: relative;
-    height: 100%;
-}
 
-.article {
-    padding: 10px;
-    margin-bottom: 10px;
-    box-shadow:2px 2px 10px rgba(239, 73, 73, .05);
-}
-
-.article-list {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 40px;
-    bottom: 0;
-}
-
-.article-title {
-    white-space:normal;  
-    -webkit-line-clamp:2;  
-    display:-webkit-box;  
-    overflow: hidden;
-    text-overflow:ellipsis;
-    -webkit-box-orient: vertical; 
-    margin-bottom: 10px;
-}
-
-.article-time {
-    font-size: 12px;
-    color: #ccc;
-}
 
 .tag {
     display: inline-block;
@@ -43,4 +11,8 @@
 .tag-list {
     margin: 10px 0;
     white-space: nowrap;
+}
+
+.article{
+    padding: 15px;
 }
